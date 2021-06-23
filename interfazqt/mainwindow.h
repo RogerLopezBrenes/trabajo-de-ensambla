@@ -16,7 +16,29 @@ public:
     ~MainWindow();
 
 private slots:
+    void on_number_0_clicked();
+
     void on_number_1_clicked();
+
+    void on_number_2_clicked();
+
+    void on_number_3_clicked();
+
+    void on_number_4_clicked();
+
+    void on_number_5_clicked();
+
+    void on_number_6_clicked();
+
+    void on_number_7_clicked();
+
+    void on_number_8_clicked();
+
+    void on_number_9_clicked();
+
+    void on_button_equal_clicked();
+
+    void on_button_Clear_clicked();
 
 private:
     Ui::MainWindow *ui;
